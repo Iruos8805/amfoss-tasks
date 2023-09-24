@@ -1,0 +1,332 @@
+[2023-08-31 17:14:42] [INFO    ] discord.client: logging in using static token
+[2023-08-31 17:14:44] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 29dbd09792c93df3aa0701363124a3b9).
+[2023-08-31 17:19:00] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:19:28] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:26:02] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:27:29] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:29:25] [INFO    ] discord.client: logging in using static token
+[2023-08-31 17:29:28] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 116eb366198529fbc4d0390d43c39772).
+[2023-08-31 17:29:42] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:36:22] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:37:28] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:37:33] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:37:40] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:38:55] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:39:08] [INFO    ] discord.client: logging in using static token
+[2023-08-31 17:39:10] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1e1714a00265304944717e4a6e4893a2).
+[2023-08-31 17:39:21] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:41:54] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:42:06] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:42:32] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:43:04] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:44:16] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command livescore
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 235, in wrapped
+  File "/home/souri/Desktop/bot.py", line 50, in livescore
+  File "/home/souri/Desktop/scraperedit.py", line 10, in fetch_live_score
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 73, in get
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 458, in send
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/requests/adapters.py", line 261, in cert_verify
+OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1350, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1029, in invoke
+  File "/home/souri/Desktop/venv/lib/python3.10/site-packages/discord/ext/commands/core.py", line 244, in wrapped
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: OSError: Could not find a suitable TLS CA certificate bundle, invalid path: /home/souri/Desktop/venv/lib/python3.10/site-packages/certifi/cacert.pem
+[2023-08-31 17:46:47] [INFO    ] discord.client: logging in using static token
+[2023-08-31 17:46:50] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 41e0b78f121f19ac938101e17948180e).
+[2023-08-31 17:56:23] [INFO    ] discord.client: logging in using static token
+[2023-08-31 17:56:25] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 42aac895f6b8edb3f5e811ff1951d62c).
+[2023-08-31 17:57:24] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "help\" is not found

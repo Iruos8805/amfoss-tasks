@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "AK 47 - Weather Extension",
+    "version": "1.0",
+    "description": "All about weather around the world",
+    "permissions": [
+        "activeTab",
+        "geolocation"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+ }
+ 

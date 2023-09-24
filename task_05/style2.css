@@ -1,0 +1,30 @@
+custom-header nav{
+    height:80px;
+    background-color: rgba(11,11,33,0.7);   
+    padding: 10px;
+
+}
+custom-header nav h1 img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    
+}
+custom-header nav ul img{
+    float: right;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    
+}
+custom-header nav ul {
+    list-style: none;
+    margin: 0 15px;
+}
+custom-header nav ul {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    justify-content: space-between;
+}
