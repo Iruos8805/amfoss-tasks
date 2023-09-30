@@ -22,7 +22,7 @@ There is nothing to complain about PRAVESHAN. I felt that everything was organis
 |----------------------|-----------------------------|---------------------|
 | [task_00](/task_00)     | Install Linux            | Completed           |
 | [task_01](/task_01)     | Terminal Wizard          | Completed           |
-| [task_02](/task_02)     | Lessgo Hugo              | Completed Partially |
+| [task_02](/task_02)     | Lessgo Hugo              | Completed           |
 | [task_03](/task_03)     | Hello World!             | Completed (7/10)    |
 | [task_04](/task_04)     | Competitive Programming  | Completed Partially |
 | [task_05](/task_05)     | HyperText Mockup Language| Completed           |
