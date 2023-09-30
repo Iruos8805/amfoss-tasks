@@ -17,7 +17,7 @@ I strongly trust that if one is a part of something like a group,a society, a cl
 
 | Task list | Description              | Status              |
 |-----------|--------------------------|---------------------|
-| task_00   | Install Linux            | Completed           |
+| task-00   | Install Linux            | Completed           |
 | task_01   | Terminal Wizard          | Completed           |
 | task_02   | Lessgo Hugo              | Completed Partially |
 | task_03   | Hello World!             | Completed (7/10)    |
