@@ -20,7 +20,7 @@ There is nothing to complain about PRAVESHAN. I felt that everything was organis
 
 | Task list            | Description                 | Status                 |
 |----------------------|-----------------------------|---------------------|
-| [task-00](/task-00)     | Install Linux            | Completed           |
+| [task-00](/task_00)     | Install Linux            | Completed           |
 | [task_01](/task_01)     | Terminal Wizard          | Completed           |
 | [task_02](/task_02)     | Lessgo Hugo              | Completed Partially |
 | [task_03](/task_03)     | Hello World!             | Completed (7/10)    |
