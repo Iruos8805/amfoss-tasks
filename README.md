@@ -15,24 +15,24 @@ I strongly trust that if one is a part of something like a group,a society, a cl
 "Alone we can do so little, Together we can do so much". Thus by working on myself and also helping all members in my club to improve on themselves and in the future helping the next set of people to find their spark I can assure the club will quickly rise to its ever rising potential. I also believe that I will also be able to find new areas in the field to work, develop and research on thus increasing the pallette of areas the club can offer.
 
 
-| Task list            | Description              | Status              |
-|----------------------|--------------------------|---------------------|
-| [docs](/task-00)     | Install Linux            | Completed           |
-| [docs](/task-01)     | Terminal Wizard          | Completed           |
-| [docs](/task-02)     | Lessgo Hugo              | Completed Partially |
-| [docs](/task-03)     | Hello World!             | Completed (7/10)    |
-| [docs](/task-04)     | Competitive Programming  | Completed Partially |
-| [docs](/task-05)     | HyperText Mockup Language| Completed           |
-| [docs](/task-06)     | Cricket Vault            | Completed           |
-| [docs](/task-07)     | AK-47℃                  | Completed           |
-| [docs](/task-08)     | Poke-Search!             | Completed           |
-| task_09              | GeoQuest                 | Unattempted         |
-| task_10              | RuskOs                   | Unattempted         |
-| task_11              |  TinkerCAD               | Unattempted         |
-| task_12              | Godot                    | Unattempted         |
-| [docs](/task-013)    | Vim                      | Completed           |
-| [docs](/task-014)    | Bandit                   | Completed           |
-| task_15              | Project Euler            | Unattempted         |
+| Task list            | Description                 | Status                 |
+|----------------------|-----------------------------|---------------------|
+| [task-00](/task-00)     | Install Linux            | Completed           |
+| [task-01](/task-01)     | Terminal Wizard          | Completed           |
+| [task-02](/task-02)     | Lessgo Hugo              | Completed Partially |
+| [task-03](/task-03)     | Hello World!             | Completed (7/10)    |
+| [task-04](/task-04)     | Competitive Programming  | Completed Partially |
+| [task-05](/task-05)     | HyperText Mockup Language| Completed           |
+| [task-06](/task-06)     | Cricket Vault            | Completed           |
+| [task-07](/task-07)     | AK-47℃                  | Completed           |
+| [task-08](/task-08)     | Poke-Search!             | Completed           |
+| task_09                 | GeoQuest                 | Unattempted         |
+| task_10                 | RuskOs                   | Unattempted         |
+| task_11                 |  TinkerCAD               | Unattempted         |
+| task_12                 | Godot                    | Unattempted         |
+| [task-13](/task-013)    | Vim                      | Completed           |
+| [task-14](/task-014)    | Bandit                   | Completed           |
+| task_15                 | Project Euler            | Unattempted         |
 
 
 
