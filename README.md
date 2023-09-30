@@ -15,8 +15,24 @@ I strongly trust that if one is a part of something like a group,a society, a cl
 "Alone we can do so little, Together we can do so much". Thus by working on myself and also helping all members in my club to improve on themselves and in the future helping the next set of people to find their spark I can assure the club will quickly rise to its ever rising potential. I also believe that I will also be able to find new areas in the field to work, develop and research on thus increasing the pallette of areas the club can offer.
 
 
+| Task list | Description              | Status              |
+|-----------|--------------------------|---------------------|
+| task_00   | Install Linux            | Completed           |
+| task_01   | Terminal Wizard          | Completed           |
+| task_02   | Lessgo Hugo              | Completed Partially |
+| task_03   | Hello World!             | Completed (7/10)    |
+| task_04   | Competitive Programming  | Completed Partially |
+| task_05   | HyperText Mockup Language| Completed           |
+| task_06   | Cricket Vault            | Completed           |
+| task_07   | AK-47℃                  | Completed           |
+| task_08   | Poke-Search!             | Completed           |
+| task_09   | GeoQuest                 | Unattempted         |
+| task_10   | RuskOs                   | Unattempted         |
+| task_11   |  TinkerCAD               | Unattempted         |
+| task_12   | Godot                    | Unattempted         |
+| task_13   | Vim                      | Completed           |
+| task_14   | Bandit                   | Completed           |
+| task_15   | Project Euler            | Unattempted         |
 
-| Task List     | Description   | Staus       |
-| ------------- | ------------- | ----------  |
-| Content Cell  | Content Cell  |             |
-| Content Cell  | Content Cell  |             |
+
+
