@@ -1,3 +1,5 @@
+# Lessgo Hugo
+
 Link to HUGO REPOSITORY: https://github.com/Iruos8805/Iruos8805.github.io
 
 
