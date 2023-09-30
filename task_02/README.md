@@ -1,4 +1,4 @@
-Link to HUGO REPOSITORY: https://iruos8805.github.io/public
+Link to HUGO REPOSITORY: https://github.com/Iruos8805/Iruos8805.github.io
 
 
 Link to Website:https://iruos8805.github.io/public/
