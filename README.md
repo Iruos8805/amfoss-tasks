@@ -13,3 +13,10 @@ My goals for next 6 months is to try and do anything and everything to be able t
 # HOW I PLAN ON CONTRIBUTING BACK TO THE CLUB
 I strongly trust that if one is a part of something like a group,a society, a club etc, it is that person's duty to help the club to reach new heights, venture into unknown yet knowledge filled lands that haven't been explored before, to help the club grow more than ever before by achieving stellar achievements individually and at the same time helping others of the club to do the same. Yes, the club is already famous and known for their striking achivements, but I strongly believe that there is always more and more to do. Dedication to the club and for its members are the things I can promise that I can contribute back to the club. 
 "Alone we can do so little, Together we can do so much". Thus by working on myself and also helping all members in my club to improve on themselves and in the future helping the next set of people to find their spark I can assure the club will quickly rise to its ever rising potential. I also believe that I will also be able to find new areas in the field to work, develop and research on thus increasing the pallette of areas the club can offer.
+
+
+
+| Task List     | Description   | Staus       |
+| ------------- | ------------- | ----------  |
+| Content Cell  | Content Cell  |             |
+| Content Cell  | Content Cell  |             |
