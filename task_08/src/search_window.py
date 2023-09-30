@@ -1,9 +1,10 @@
 from PySide6.QtWidgets import (
-    QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QTextBrowser, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem, QDialog, QHBoxLayout, QMessageBox, QStackedWidget
+    QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QTextBrowser, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem, QDialog, QHBoxLayout, QMessageBox, QStackedWidget, QApplication
 )
 from PySide6.QtGui import QPixmap
 import requests
 import os
+import json
 
 class SearchWindow(QWidget):
     def __init__(self):
@@ -46,6 +47,8 @@ class SearchWindow(QWidget):
 
         self.captured_pokemon_info = []
 
+        self.load_captured_images()
+
     def search_pokemon(self):
         pokemon_name = self.textbox.text().lower()
         api_url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name}/"
@@ -62,7 +65,7 @@ class SearchWindow(QWidget):
             self.info_browser.setPlainText(pokemon_info)
 
             image_url = pokemon_data['sprites']['front_default']
-            pixmap = self.download_image(image_url)
+            pixmap = self.download_image(image_url)  
             if pixmap:
                 scene = QGraphicsScene()
                 item = QGraphicsPixmapItem(pixmap)
@@ -80,9 +83,9 @@ class SearchWindow(QWidget):
             if response.status_code == 200:
                 pokemon_data = response.json()
                 image_url = pokemon_data['sprites']['front_default']
-                pixmap = self.download_image(image_url)
+                pixmap = self.download_image(image_url, save=True) 
                 if pixmap:
-                    self.captured_pokemon_info.append((self.info_browser.toPlainText(), pixmap))
+                    self.captured_pokemon_info.append((pokemon_name.capitalize(), pixmap))
                     QMessageBox.information(self, "Capture Success", "Pokémon successfully captured!")
 
     def display_pokemon(self):
@@ -93,11 +96,11 @@ class SearchWindow(QWidget):
             layout = QVBoxLayout()
             self.stacked_widget = QStackedWidget()
 
-            for i, (pokemon_info, pixmap) in enumerate(self.captured_pokemon_info):
+            for i, (pokemon_name, pixmap) in enumerate(self.captured_pokemon_info):
                 pokemon_widget = QWidget()
                 layout_inner = QVBoxLayout()
 
-                label_name = QLabel(f"{pokemon_info.splitlines()[0][6:]}")  # Corrected line
+                label_name = QLabel(f"Name: {pokemon_name}")
                 layout_inner.addWidget(label_name)
 
                 if pixmap:
@@ -126,19 +129,40 @@ class SearchWindow(QWidget):
 
             display_dialog.exec_()
 
-    def download_image(self, image_url):
+    def download_image(self, image_url, save=False):  
         response = requests.get(image_url)
         if response.status_code == 200:
             image_data = response.content
             pixmap = QPixmap()
             pixmap.loadFromData(image_data)
+
+            if save:
+                save_directory = "pokemon_images/"
+                os.makedirs(save_directory, exist_ok=True)
+                filename = os.path.join(save_directory, f"{self.textbox.text().lower()}.png")
+                pixmap.save(filename)
+
             return pixmap
         return None
 
+    def load_captured_images(self):
+        image_directory = "pokemon_images/"
+        if os.path.exists(image_directory):
+            for filename in os.listdir(image_directory):
+                if filename.endswith(".png"):
+                    filepath = os.path.join(image_directory, filename)
+                    pixmap = QPixmap(filepath)
+                    self.captured_pokemon_info.append((filename.split('.')[0].capitalize(), pixmap))
+
+    def save_captured_pokemon(self):
+        with open("captured_pokemon.json", "w") as file:
+            json.dump(self.captured_pokemon_info, file)
+
+    def closeEvent(self, event):
+        self.save_captured_pokemon()
+
 if __name__ == "__main__":
     import sys
-    from PySide6.QtWidgets import QApplication
-
     app = QApplication(sys.argv)
     window = SearchWindow()
     window.show()

@@ -18,11 +18,12 @@ def fetch_live_score():
         paragraph_text = specific_paragraph.get_text()
 
         
-        team_names = ['Sri Lanka', 'Bangladesh', 'New Zealand', 'Australia', 'West Indies'] 
+        team_names = ['Sri Lanka', 'Bangladesh', 'New Zealand', 'Australia', 'West Indies']  
+
         for team_name in team_names:
             div_text = div_text.replace(team_name, f'{team_name} ')
 
-        
+       
         words = div_text.split()
         for word in words:
             if word.istitle():

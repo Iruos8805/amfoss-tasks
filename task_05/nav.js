@@ -3,7 +3,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
       <nav>
         <h1>
-          <a href="web.html"> <!-- Link to web.html -->
+          <a href="Web.html">
             <img src="https://github.com/amfoss/tasks/blob/2023/task-05/assets/navbar/logo.png?raw=true" alt="Logo">
           </a>
         </h1>
