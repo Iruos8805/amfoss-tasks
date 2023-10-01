@@ -188,6 +188,7 @@ custom-header nav ul {
     transform: scale(1.05);
     transition: transform 0.3s;
     background-color: #3345AB; 
+}
 
 .stadium-button:hover::before {
     content: "";
