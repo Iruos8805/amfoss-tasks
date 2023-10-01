@@ -20,22 +20,22 @@ There is nothing to complain about PRAVESHAN. I felt that everything was organis
 
 | Task list            | Description                 | Status                 |
 |----------------------|-----------------------------|---------------------|
-| [task_00](/task_00)     | Install Linux            | Completed           |
-| [task_01](/task_01)     | Terminal Wizard          | Completed           |
-| [task_02](/task_02)     | Lessgo Hugo              | Completed           |
-| [task_03](/task_03)     | Hello World!             | Completed (7/10)    |
-| [task_04](/task_04)     | Competitive Programming  | Completed Partially |
-| [task_05](/task_05)     | HyperText Mockup Language| Completed           |
-| [task_06](/task_06)     | Cricket Vault            | Completed           |
-| [task_07](/task_07)     | AK-47℃                  | Completed           |
-| [task_08](/task_08)     | Poke-Search!             | Completed           |
-| task_09                 | GeoQuest                 | Unattempted         |
-| task_10                 | RuskOs                   | Unattempted         |
-| task_11                 |  TinkerCAD               | Unattempted         |
-| task_12                 | Godot                    | Unattempted         |
-| [task_13](/task_13)     | Vim                      | Completed           |
-| [task_14](/task_14)     | Bandit                   | Completed           |
-| task_15                 | Project Euler            | Unattempted         |
+| [task-00](/task-00)     | Install Linux            | Completed           |
+| [task-01](/task-01)     | Terminal Wizard          | Completed           |
+| [task-02](/task-02)     | Lessgo Hugo              | Completed           |
+| [task-03](/task-03)     | Hello World!             | Completed (7/10)    |
+| [task-04](/task-04)     | Competitive Programming  | Completed Partially |
+| [task-05](/task-05)     | HyperText Mockup Language| Completed           |
+| [task-06](/task-06)     | Cricket Vault            | Completed           |
+| [task-07](/task-07)     | AK-47℃                  | Completed           |
+| [task-08](/task-08)     | Poke-Search!             | Completed           |
+| task-09                 | GeoQuest                 | Unattempted         |
+| task-10                 | RuskOs                   | Unattempted         |
+| task-11                 |  TinkerCAD               | Unattempted         |
+| task-12                 | Godot                    | Unattempted         |
+| [task-13](/task-13)     | Vim                      | Completed           |
+| [task-14](/task-14)     | Bandit                   | Completed           |
+| task-15                 | Project Euler            | Unattempted         |
 
 
 
